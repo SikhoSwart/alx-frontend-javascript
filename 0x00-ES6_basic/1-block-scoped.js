@@ -3,8 +3,10 @@ export default function taskBlock(trueOrFalse) {
   const task2 = true;
 
   if (trueOrFalse) {
+    //Dealing with eslint
     const task = true;
-    const task2 = false;
+    //Dealing with eslint
+    const task2 = false; 
   }
 
   return [task, task2];
