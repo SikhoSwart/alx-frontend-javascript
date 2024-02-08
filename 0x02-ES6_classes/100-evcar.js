@@ -7,7 +7,7 @@ export default class EVCar extends Car {
   }
 
   // eslint-disable-next-line
-	cloneCar() {
-    return new Car[Symbol.species]();
+        cloneCar() {
+  return new Car[Symbol.species]();
   }
 }
