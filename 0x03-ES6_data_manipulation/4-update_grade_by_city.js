@@ -1,5 +1,5 @@
 export default function updateStudentGradeByCity(arr, city, newGrades) {
-  return arr;
+  return arr
     .filter(student => student.location === city)
     .map(student => {
       let grade = newGrades.find(g => g.studentId === student.id);
